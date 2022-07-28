@@ -9,8 +9,16 @@
 <h1>Write your name, age, and a message!</h1>
 <br>
 
-<!-- Create your form here!
- -->
- 
+<form action="/" method="POST">
+  <label for="name">Your name</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="age">How old are you?</label><br>
+  <input type="number" min="1" max="99" id="age" name="age"><br>
+  <label for="quote">Say smth</label><br>
+  <input type="text" id="quote" name="quote"><br><br>
+  <input type="submit" value="Submit"><br>
+</form> 
+
+
 </body>
 </html>
